@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#07111c">
+  <title>Moto Garage — SV650S</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game-shell" aria-label="Moto Garage">
+    <div class="bg"></div>
+    <div class="vignette"></div>
+    <header class="hud">
+      <div class="bike-mini">🏍️</div>
+      <div class="hud-model"><strong>SV650</strong><span>2000</span></div>
+      <div class="hud-level"><small>NIVEL</small><strong>01</strong></div>
+      <div class="hud-km"><small>KILÓMETROS</small><strong id="hudKm">113.839</strong></div>
+    </header>
+
+    <section class="title-block">
+      <div class="brand">SUZUKI</div>
+      <div class="model">SV650</div>
+      <div class="year">2000</div>
+    </section>
+
+    <nav class="main-menu" id="mainMenu" aria-label="Menú principal">
+      <button class="menu-item active" data-screen="home"><span>🏁</span><b>CARRERA</b></button>
+      <button class="menu-item" data-screen="garage"><span>🏍️</span><b>GARAGE</b></button>
+      <button class="menu-item" data-screen="tuning"><span>🔧</span><b>TUNING</b></button>
+      <button class="menu-item" data-screen="custom"><span>🎨</span><b>PERSONALIZACIÓN</b></button>
+      <button class="menu-item" data-screen="settings"><span>⚙️</span><b>AJUSTES</b></button>
+      <button class="menu-item" data-screen="credits"><span>👤</span><b>CRÉDITOS</b></button>
+      <button class="menu-item" data-screen="exit"><span>🚪</span><b>SALIR</b></button>
+    </nav>
+
+    <section class="screen" id="screen" aria-live="polite"></section>
+
+    <footer class="footer-hints">
+      <span><kbd>ENTER</kbd> SELECCIONAR</span>
+      <span><kbd>ESC</kbd> VOLVER</span>
+    </footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
