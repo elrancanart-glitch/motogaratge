@@ -7,3 +7,4 @@ MOTO GARAGE V2 — BASE DE PRUEBAS
 5. Abre la URL de GitHub Pages.
 
 Esta primera versión es deliberadamente sencilla: pantalla principal basada en el diseño aprobado, menú funcional, pantallas básicas y datos iniciales de la SV650S.
+1
